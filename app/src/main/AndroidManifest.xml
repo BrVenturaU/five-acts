@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fiveacts">
+
+    <application
+        android:name=".utils.SharedApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FiveActs">
+        <activity android:name=".views.calculadoraView.CalculadoraActivity"></activity>
+        <activity android:name=".views.promedioView.PromedioNotasActivity" />
+        <activity android:name=".views.imcView.ImcActivity" />
+        <activity android:name=".views.calculadoraDescuentoView.CalculadoraDescuentoActivity" />
+        <activity android:name=".views.splashScreenView.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".views.homeView.HomeActivity" />
+        <activity android:name=".views.registryView.RegisterActivity" />
+        <activity android:name=".views.loginView.LoginActivity" />
+    </application>
+
+</manifest>

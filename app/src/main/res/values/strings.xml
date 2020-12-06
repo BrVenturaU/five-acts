@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">FiveActs</string>
+
+    <!--Login Strings-->
+    <string name="login__title">Iniciar Sesión</string>
+    <string name="login__etEmail_hint">Correo electronico</string>
+    <string name="login__etPassword_hint">Contraseña</string>
+    <string name="login__btn">Iniciar</string>
+    <string name="login__registerBtn">Unirme</string>
+
+    <!--Register Strings-->
+    <string name="register__title">Registrarme</string>
+    <string name="register__etEmail_hint">Correo electronico</string>
+    <string name="register__etPassword_hint">Contraseña</string>
+    <string name="register__btn">Unirme</string>
+
+    <!--Home Strings-->
+    <string name="home__title">Bienvenido</string>
+    <string name="home__description">
+        Selecciona la opción que más te agrade,
+        eres libre de hacerlo.
+    </string>
+    <string name="home__btn_calculator">Calculadora</string>
+    <string name="home__btn_mean">Promedio</string>
+    <string name="home__btn_discount">Descuento</string>
+    <string name="home__btn_imc">IMC</string>
+
+    <!--Strings de Cristian-->
+    <string name="btnIniciar">Iniciar</string>
+    <string name="calcular">Calcular</string>
+    <string name="textview">TextView</string>
+    <string name="precio_del_producto">Precio Del Producto</string>
+    <string name="precio_de_producto">Precio De El Producto</string>
+    <string name="todo">TODO</string>
+    <string name="Descuento">Descuento </string>
+    <string name="escribe_tu_descuento">Escribe Tu Descuento</string>
+    <string name="precio_de_el_producto">Precio De El Producto</string>
+    <string name="descuento">Descuento:</string>
+    <string name="_00_00">00.00</string>
+    <string name="decuento">Precio final: </string>
+    <string name="todo1">TODO1</string>
+
+    <!--Strings de Wendy-->
+    <string name="titlePrincipal">Calculo IMC</string>
+    <string name="lableIndicacion">• Indicación: Ingrese los datos que se solicitan para el calculo del Indice de Masa Corporal.</string>
+    <string name="inputPeso">Ingrese su peso en kg</string>
+    <string name="inputAltura">Ingrese su altura metros</string>
+    <string name="buttonCalcular">Calcular</string>
+    <string name="titleResultado">Resultado del Indice de Masa Corporal:</string>
+    <string name="labelResultado">19.45365</string>
+    <string name="labelRango">Tu Rango</string>
+    <string name="buttonIntento">Volver a intentar</string>
+
+    <!--    Strings de Natalia-->
+    <string name="txt_visor">Calculemos tu promedio</string>
+    <string name="boton_mostrar">mostrar</string>
+    <string name="btn_borrar">borrar</string>
+    <string name="btn_siguiente">next</string>
+</resources>

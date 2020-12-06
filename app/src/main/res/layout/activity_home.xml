@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.homeView.HomeActivity"
+    android:nestedScrollingEnabled="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:text="@string/home__title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:text="Selecciona la opción que mas te agrade" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+            <Button
+                android:id="@+id/btnCalculadora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home__btn_calculator"
+                android:layout_marginRight="16dp"/>
+
+            <Button
+                android:id="@+id/btnPromedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home__btn_mean" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnDescuento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home__btn_discount"
+                android:layout_marginRight="16dp"/>
+
+            <Button
+                android:id="@+id/btnImc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home__btn_imc" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B71C1C"
+            android:text="Cerrar Sesión" />
+
+    </LinearLayout>
+
+
+</ScrollView>
